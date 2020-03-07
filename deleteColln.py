@@ -1,3 +1,6 @@
+#deletes entire specified Arca collection
+#use with care!
+
 import requests
 import os
 from urllib.request import urlopen 
