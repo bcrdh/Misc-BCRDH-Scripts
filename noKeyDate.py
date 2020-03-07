@@ -1,12 +1,12 @@
+#Prints a list of records with no key date attribute in date issued element
+#Prints number of such records
+#input: folder with MODS XML
+
 from bs4 import BeautifulSoup
 import sys
 import glob
 from bs4 import BeautifulSoup 
 import time
-
-
-
-
 
 noKD = []
 #authNms = []
