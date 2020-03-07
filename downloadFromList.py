@@ -1,3 +1,5 @@
+#Given a list of PIDs, downloads MODS XML from Arca
+
 import requests
 import os
 from urllib.request import urlopen 
