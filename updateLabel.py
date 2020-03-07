@@ -1,3 +1,8 @@
+#Updates object label in Arca
+#Used when putting a new photo into the slideshow carousel on BCRDH home page or taking it out
+#Edits (putting date issued into title for slideshow photo) are done in XML manually, not by this script 
+#Input = folder of MODS XML
+
 import glob
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -46,7 +51,7 @@ def updateLabel(filepath, browser, repo, num):
     subm = browser.find_element_by_id("edit-submit")
     subm.click()
 
-
+# adjust to accommodate source XML folder
 for filename in glob.iglob(r'C:\\Users\sharo\Desktop\WAH_1819\RepoCorrections\**.xml', recursive=True):
     fnms = filename.split('\\')
     objIDpts = fnms[7].split("_")
