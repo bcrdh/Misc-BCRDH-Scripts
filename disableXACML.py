@@ -1,3 +1,7 @@
+#NON-WORKING
+#Purpose is to change XACML to disable or enable (i.e. toggle) viewing access for public to a file
+#Originally used with a previous Downloader version
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
