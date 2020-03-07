@@ -1,3 +1,5 @@
+#Checks that XML is well formed (does not validate)
+
 from xml.sax.handler import ContentHandler
 from xml.sax import make_parser
 import glob, sys
